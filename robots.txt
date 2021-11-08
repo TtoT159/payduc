@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: http://doc.payduc.com/sitemap.xml
+Sitemap: https://doc.payduc.com/sitemap.xml
