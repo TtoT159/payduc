@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on PayducDoc</title>
-    <link>http://doc.payduc.com/post/</link>
+    <link>https://doc.payduc.com/post/</link>
     <description>Recent content in Post on PayducDoc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 18 Sep 2020 14:53:54 +0800</lastBuildDate><atom:link href="http://doc.payduc.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Sep 2020 14:53:54 +0800</lastBuildDate><atom:link href="https://doc.payduc.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>代付文档</title>
-      <link>http://doc.payduc.com/post/Trade/</link>
+      <link>https://doc.payduc.com/post/Trade/</link>
       <pubDate>Fri, 18 Sep 2020 14:53:54 +0800</pubDate>
       
-      <guid>http://doc.payduc.com/post/Trade/</guid>
+      <guid>https://doc.payduc.com/post/Trade/</guid>
       <description>请求支付参数说明      请求URL: http://app.payduc.com/apitakecash
   请求方式： POST
      参数名 必填 签名 描述     version 是 是 版本 请传 1.0   customerid 是 是 用户id，请在后台查看   sdorderno 是 是 商户订单号   total_fee 是 是 付款金额 例如：10.10 单位 元   paytype 是 是 支付系统提供，请联系管理员提供   name 是 是 收款姓名，不能有汉字   account 是 是 收款账号，pix钥匙串，不能有汉字   notifyurl 是 是 付款完成通知地址   sign 是 是 md5签名，签名算法在下面：     签名算法: 由以下字符串md5后得到   version=1.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>支付文档</title>
-      <link>http://doc.payduc.com/post/Pay/</link>
+      <link>https://doc.payduc.com/post/Pay/</link>
       <pubDate>Fri, 18 Sep 2020 14:53:54 +0800</pubDate>
       
-      <guid>http://doc.payduc.com/post/Pay/</guid>
+      <guid>https://doc.payduc.com/post/Pay/</guid>
       <description>请求支付参数说明      请求URL: http://app.payduc.com/apisubmit
   请求方式： POST
      参数名 必填 签名 描述     version 是 是 版本 请传 1.0   customerid 是 是 用户id，请在后台查看   sdorderno 是 是 商户订单号   total_fee 是 是 付款金额 例如：10.10 单位 元   paytype 是 是 支付系统提供，请联系管理员提供   notifyurl 是 是 后台回调通知地址   returnurl 是 是 完成支付跳转地址   remark 是 是 备注   bankcode 是 是 仅银行付款可用，请传空字符串   sign 是 是 md5签名，签名算法在下面：     签名算法: 由以下字符串md5后得到   version=1.</description>
